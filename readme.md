@@ -10,6 +10,13 @@ cost and Variance calculated using mathematical analysis and Chebyshev's inequal
 ## test_expected_cost_skiplist.py
 
 This Jupyter notebook contains the implementation and tests for the empirical cost of skip lists. It includes the following:
+
 - Implementation of a skip list data structure with additional variables to compute costs.
 - A test suite that runs multiple trials to compute the empirical expected cost of search operations in a skip list.
 - Visualization of the empirical expected cost and comparison with theoretical expectations.
+
+Test parameters:
+
+- `num_trials`: 50000.
+- `num_elements`: [256, 1024, 4096, 8192, 16384, 32768, 65536]
+- `p_values`: [0.25, 0.5]
